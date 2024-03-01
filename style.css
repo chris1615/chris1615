@@ -62,3 +62,6 @@ h1{
   .celebrate {
     animation: celebrate 0.5s ease-in-out;
   }
+  .box:hover{
+    background-color: rgb(3, 213, 236);
+  }
