@@ -32,7 +32,6 @@ boxes.forEach((box) => {
             console.log("person 2")
         }
         box.disabled=true;
-        checkWin();
         count++
         let isWinner=checkWin();
         if(count===9 && !isWinner){
@@ -65,6 +64,7 @@ const checkWin= () =>{
             
             celebrateOnWin(winner);
             disablebutton();
+            return true;
         }
     
     }
